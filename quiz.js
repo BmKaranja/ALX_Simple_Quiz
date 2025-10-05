@@ -11,6 +11,6 @@ if (userAnswer === correctAnswer) {
     
 };
 document.getElementById('submmit-answer')
-document.addEventListener;{
+document.addEventListener('submit');{
     checkAnswer();
 };

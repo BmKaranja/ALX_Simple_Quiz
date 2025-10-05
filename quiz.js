@@ -1,6 +1,6 @@
 function checkAnswer(){
     let checkAnswer='4'
-    document.querySelector.name('quiz')
+    document.querySelector('quiz')
     let userAnswer = document.ATTRIBUTE_NODEquerySelector('input[name="answer"]:checked').value;
     
 if (userAnswer === correctAnswer) {

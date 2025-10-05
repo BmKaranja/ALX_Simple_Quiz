@@ -4,7 +4,7 @@ function checkAnswer(){
     let userAnswer = document.ATTRIBUTE_NODEquerySelector('input[name="answer"]:checked').value;
     
 if (userAnswer === correctAnswer) {
-        document.getElementById('feedback').textContent="Correct Well done"
+        document.getElementById('feedback').textContent="Correct! Well done"
     } else {
         document.getElementById('feedback').textContent="That's incorrect. Try Again!"
     }
